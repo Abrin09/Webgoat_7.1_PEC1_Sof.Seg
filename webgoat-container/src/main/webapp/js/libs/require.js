@@ -2075,7 +2075,7 @@ var requirejs, require, define;
      */
     req.exec = function (text) {
         /*jslint evil: true */
-        return eval(text);
+        return @param{text};
     };
 
     //Set up with config info.

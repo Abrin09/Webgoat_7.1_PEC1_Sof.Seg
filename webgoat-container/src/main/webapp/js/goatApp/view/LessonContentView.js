@@ -50,7 +50,7 @@ define(['jquery',
                     console.log("About to POST " + _url);
                     $.post(_url)
                         .done(self.reLoadView.bind(self))
-                        .fail(function() { alert("failed to POST " + _url); });
+                        .fail(function() { console.log("failed to POST " + _url); });
                 });
             });
         },

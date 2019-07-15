@@ -35,7 +35,7 @@ define(['jquery',
                         // DOM element for the form do this: 
                         // var formElement = jqForm[0]; 
 
-                        alert('About to submit: \n\n' + queryString);
+                        console.log('About to submit: \n\n' + queryString);
                     }
                     // here we could return false to prevent the form from being submitted; 
                     // returning anything other than false will allow the form submit to continue 
